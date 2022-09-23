@@ -1,17 +1,18 @@
-let count = 0
-let saveEl = document.getElementById("save-el")
-let countEl = document.getElementById("count-el")
+// document.getElementById('count-el').innerText = 4;
 
-function increment() {
-    count += 1
-    countEl.textContent = count
-}
+let count = 0;
 
-function save() {
-    let countStr = count + " - "
-    saveEl.textContenttStr
-    countEl.textContent = 0
-    count = 0
-}
+console.log(count);
 
-console.log("Let's count people on the subway!")
+let myAge = 25;
+console.log(myAge);
+
+let humanDogRatio = 7;
+console.log(humanDogRatio);
+
+let myAgeInDogYears = myAge * humanDogRatio;
+console.log(myAgeInDogYears);
+
+// document.getElementById('increment').addEventListener('click', function () {
+//   document.getElementById('count-el').innerText += 1;
+// });
