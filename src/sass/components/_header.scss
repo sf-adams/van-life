@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 3rem;
+
+  .header__logo {
+    width: clamp(250px, 20vw, 500px);
+  }
+
+  .header__nav {
+    display: flex;
+    gap: 2rem;
+
+    .header__nav-item {
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.5rem;
+      color: #4d4d4d;
+    }
+  }
+}

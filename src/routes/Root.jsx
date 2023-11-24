@@ -1,19 +1,11 @@
-import { Link, Outlet } from "react-router-dom";
-import Logo from "../assets/logo.png";
+import { Outlet } from "react-router-dom";
+
+import Header from "../components/Header";
 
 export default function Root() {
   return (
     <>
-      <header>
-        <Link to="/">
-          <img src={Logo} alt="Van Life Logo" />
-        </Link>
-
-        <nav>
-          <Link to="/about">About</Link>
-          <Link to="/vans">Vans</Link>
-        </nav>
-      </header>
+      <Header />
       <main>
         <Outlet />
       </main>
