@@ -1,4 +1,14 @@
 body {
   background-color: #fff7ed;
   font-family: "Inter", sans-serif;
+  min-height: 100vh;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }

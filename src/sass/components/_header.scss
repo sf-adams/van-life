@@ -5,7 +5,7 @@
   padding: 4rem 3rem;
 
   .header__logo {
-    width: clamp(250px, 20vw, 500px);
+    width: clamp(200px, 15vw, 400px);
   }
 
   .header__nav {
@@ -17,6 +17,11 @@
       font-weight: 600;
       font-size: 1.5rem;
       color: #4d4d4d;
+
+      &:hover {
+        color: #161616;
+        text-decoration: underline;
+      }
     }
   }
 }
