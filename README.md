@@ -1,7 +1,8 @@
-## Welcome to [Learn JavaScript for Free](https://scrimba.com/learn/learnjavascript?utm_source=scrimba&utm_medium=scrim&utm_campaign=learn_javascript_launch&utm_content=fcc)
+# React + Vite
 
-Here, you can find the starter files for all the challenges in the course. To get started, download the entire repo and then navigate to the folder you need - the folders are structured just like the course. 
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-If you have any problems at all, send an email to help@scrimba.com or join our [Discord server](scrimba.com/discord) and we'll give you a hand. 
+Currently, two official plugins are available:
 
-Happy coding!
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
