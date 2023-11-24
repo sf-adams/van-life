@@ -1,0 +1,42 @@
+.about {
+  .about__hero {
+  }
+
+  .about__container {
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    .about__title {
+      font-size: 2rem;
+      font-weight: 700;
+    }
+
+    .about__description {
+      color: #161616;
+    }
+
+    .about__callout {
+      background-color: #FFCC8D;
+      border-radius: 0.25rem;
+      max-width: 500px;
+      padding: 1.5rem;
+      margin-top: 1.5rem;
+
+      .about__callout-text {
+        font-weight: 600;
+        font-size: 1.5rem;
+      }
+
+      .about__link {
+        background-color: #161616;
+        font-size: 1rem;
+        padding: 0.75rem 1rem;
+        margin-top: 1.5rem;
+        display: block;
+        max-width: 200px;
+      }
+    }
+  }
+}
