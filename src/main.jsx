@@ -2,10 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import {Root, Home, About, Vans, Van} from "./routes/index"
+import { Root, Home, About, Vans, Van } from "./routes/index";
 import ErrorPage from "./ErrorPage.jsx";
 
 import "./sass/main.scss";
+import "./lib/server";
 
 const router = createBrowserRouter([
   {
@@ -15,7 +16,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Home />
+        element: <Home />,
       },
       {
         path: "/about",
@@ -29,11 +30,9 @@ const router = createBrowserRouter([
         path: "/vans:vanId",
         element: <Van />,
       },
-    ]
+    ],
   },
-
-
-])
+]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
